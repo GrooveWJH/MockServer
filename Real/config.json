@@ -1,0 +1,38 @@
+{
+  "server": {
+    "base_url": "http://192.168.31.38:8000",
+    "password": "000000"
+  },
+  "drones": [
+    {
+      "device_code": 1,
+      "account": "ZSDX001",
+      "base_lat": 39.045256,
+      "base_lon": 117.717129,
+      "base_alt": 100.0
+      },
+    {
+      "device_code": 2,
+      "account": "ZSDX002",
+      "base_lat": 39.045256,
+      "base_lon": 117.717129,
+      "base_alt": 120.0
+    },
+    {
+      "device_code": 3,
+      "account": "ZSDX003",
+      "base_lat": 39.045256,
+      "base_lon": 117.717129,
+      "base_alt": 150.0
+    }
+  ],
+  "coord_range": {
+    "lat_offset": 0.0001,
+    "lon_offset": 0.0001,
+    "alt_offset": 20.0
+  },
+  "intervals": {
+    "report_hz": 100,
+    "task_hz": 0.2
+  }
+}
